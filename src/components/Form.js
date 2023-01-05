@@ -7,6 +7,7 @@ export default function Form(props) {
         let Str = text;
         Str = Str.toUpperCase();
         setText(Str);
+        props.alertFun("Uppercase","success");
 
     }
     const onChangehandle = (event) =>{
