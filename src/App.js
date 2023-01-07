@@ -50,7 +50,7 @@ function App() {
     <>
   
    <Router>
-  <Navbar title="Hello" homebar="Homebar" mode={mode} light={light} />
+  <Navbar title="Textapp" homebar="Homebar" mode={mode} light={light} />
   <Alert alert={alert}/>
 
   <div className="container">
